@@ -4,9 +4,9 @@ spring:
     - dev
 spring:
   profiles: dev #开发环境
-    application:
+  application:
       name: microservicecloud-config-zwh-dev
 spring:
   profiles: test
-    application:
+  application:
       name: microservicecloud-config-zwh-test
