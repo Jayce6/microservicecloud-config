@@ -15,11 +15,11 @@ spring:
       url: jdbc:mysql://localhost:3306/cloudDB01?serverTimezone=GMT%2B8 #数据库名称
       username: root
       password: 
-    dbcp2:
-      min-idle: 5 #数据库连接池最小维持的连接数
-      initial-size: 5 #初始化连接数
-      max-total: 5 #最大连接数
-      max-wait-millis: 200 #等待连接获取的最大超时时间
+      dbcp2:
+        min-idle: 5 #数据库连接池最小维持的连接数
+        initial-size: 5 #初始化连接数
+        max-total: 5 #最大连接数
+        max-wait-millis: 200 #等待连接获取的最大超时时间
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml #mybatis配置文件所在
   type-aliases-package: com.zwh.springcloud.entities #所有Entities别名类包所在
@@ -50,11 +50,11 @@ spring:
       url: jdbc:mysql://localhost:3306/cloudDB02?serverTimezone=GMT%2B8 #数据库名称
       username: root
       password: 
-    dbcp2:
-      min-idle: 5 #数据库连接池最小维持的连接数
-      initial-size: 5 #初始化连接数
-      max-total: 5 #最大连接数
-      max-wait-millis: 200 #等待连接获取的最大超时时间
+      dbcp2:
+        min-idle: 5 #数据库连接池最小维持的连接数
+        initial-size: 5 #初始化连接数
+        max-total: 5 #最大连接数
+        max-wait-millis: 200 #等待连接获取的最大超时时间
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml #mybatis配置文件所在
   type-aliases-package: com.zwh.springcloud.entities #所有Entities别名类包所在
